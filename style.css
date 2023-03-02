@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black;
+    color: #9CBFEB;
+}
+.Destaque {
+    color: lime;
+}
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao__conteudo__titulo {
+    font-size: 38px;
+    font-family:'krona one', sans-serif ;
+}
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: 'montserrat', sans-serif;
+}
+.apresentacao__links {
+    display:flex ;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid lime;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+    font-size: 24px;
+    padding: 16px 0;
+    font-weight: 600;
+    text-decoration: none;
+    color: lime;
+    font-family:'montserrat', sans-serif ;
+}
+.minha__redes{
+    font-family: 'krona one', 'sans-serif';
+    font-weight: 400;
+    font-size: 24px;
+
+
+}
